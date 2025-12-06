@@ -82,7 +82,7 @@ class CookieConsentController
         TranslatorInterface $translator,
         LoggerInterface $logger,
         bool $cookieConsentSimplified = false,
-        string $formAction = null
+        ?string $formAction = null
     ) {
         $this->twigEnvironment         = $twigEnvironment;
         $this->formFactory             = $formFactory;
