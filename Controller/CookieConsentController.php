@@ -160,7 +160,7 @@ class CookieConsentController
     {
         $locale = $request->get('locale');
         if (empty($locale) === false) {
-            $this->translator->setLocale($locale;
+            $this->translator->setLocale($locale);
             $request->setLocale($locale);
         }
     }
